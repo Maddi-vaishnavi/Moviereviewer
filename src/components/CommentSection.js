@@ -28,7 +28,7 @@ const CommentSection = ({ movieId, onCommentCountChange }) => {
   const [likingComments, setLikingComments] = useState(new Set());
   const [deletingComments, setDeletingComments] = useState(new Set());
   const [updatingComments, setUpdatingComments] = useState(new Set());
-
+  
   // Helper function to check response and parse JSON
   const checkAndParseJson = async (response) => {
     const text = await response.text();
