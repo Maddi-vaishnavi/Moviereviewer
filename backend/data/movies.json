@@ -1,0 +1,63 @@
+{
+  "movies": [
+    {
+      "id": "movie_1",
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "director": "Frank Darabont",
+      "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+      "genre": ["Drama", "Crime"],
+      "releaseDate": "1994-09-23",
+      "rating": 9.3,
+      "duration": "142 min",
+      "poster": "https://example.com/shawshank.jpg",
+      "trailer": "https://example.com/shawshank-trailer.mp4"
+    },
+    {
+      "id": "movie_2",
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "director": "Francis Ford Coppola",
+      "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "genre": ["Crime", "Drama"],
+      "releaseDate": "1972-03-24",
+      "rating": 9.2,
+      "duration": "175 min",
+      "poster": "https://example.com/godfather.jpg",
+      "trailer": "https://example.com/godfather-trailer.mp4"
+    },
+    {
+      "id": "movie_3",
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests.",
+      "director": "Christopher Nolan",
+      "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      "genre": ["Action", "Crime", "Drama"],
+      "releaseDate": "2008-07-18",
+      "rating": 9.0,
+      "duration": "152 min",
+      "poster": "https://example.com/dark-knight.jpg",
+      "trailer": "https://example.com/dark-knight-trailer.mp4"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment_1",
+      "movieId": "movie_1",
+      "user": "MovieLover123",
+      "comment": "Absolutely incredible movie! The storyline and acting are phenomenal.",
+      "likes": 5,
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "comment_2",
+      "movieId": "movie_1",
+      "user": "CinemaFan",
+      "comment": "One of the best movies ever made. Morgan Freeman's narration is perfect.",
+      "likes": 3,
+      "createdAt": "2024-01-16T14:20:00.000Z",
+      "updatedAt": "2024-01-16T14:20:00.000Z"
+    }
+  ]
+}
